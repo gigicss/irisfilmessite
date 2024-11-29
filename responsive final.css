@@ -1,0 +1,332 @@
+
+@media screen and (max-width: 1027px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 831px){
+    /* Responsiv da hero*/
+    section.hero-site{
+        margin-top: -5%;
+    }
+    
+    .hero-site{
+        font-size: 40px;
+    }
+    
+    .hero-site .txt-hero{
+        font-size: 25px;
+        font-weight: 300;
+        margin: 20px;
+    }
+    
+    .hero-site .txt-hero
+    
+    .img-itens img {
+        width: 350px;
+        height: auto;
+        margin-bottom: 45px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+    }
+
+    header{
+        width: 100%;
+        padding: 20px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+    
+        transition: .2s;
+    }
+
+    /* Estilo das vantagens */
+/* 
+/* .titulo{ 
+        font-size: 40px;
+        color:#fff;
+        text-align: center;
+        font-size: 5em;
+        padding: 60px 0;
+        margin-top: 5px;
+    } */
+
+    /* QUEM SOMOS */
+
+    /* Estilo do hero */
+
+    section.hero-site {
+        height: 140vh; /* Altura total da viewport */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #ffffff;
+        margin-top: -3%;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .hero-site .txt-hero{
+        font-size: 18px;
+        font-weight: 300;
+        margin: 20px;
+        color: #000000;
+        justify-content: center;
+    }
+
+    
+    /* .hero-site .txt-hero{
+        font-size: 40px;
+        font-weight: 300;
+        margin: 20px;
+        color: #fff;
+    } */
+    
+    .hero-site .txt-hero p{
+        margin-top: 10px;
+    }
+
+    .video{
+        width: 200px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+
+    /* Estrutura */
+    section.estrutura{
+        height: 65vh; /* Altura total da viewport */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #000000;
+        margin-top: -2%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .estrutura .tst-hero{
+        font-size: 18px;
+        font-weight: 300;
+        margin: 20px;
+        color: #ffffff;
+        justify-content: center;
+        padding-top: 2%;
+    }
+
+
+    .hero-site .tst-hero {
+        font-size: 10px;
+        font-weight: 300;
+        margin: 20px;
+        color: #000000;
+
+    }
+
+
+    /* Por trás das câmeras */
+    section.equipe{
+        height: 100vh; /* Altura total da viewport */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #ffffff;
+        margin-top: 2%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .equipe .tdt-hero{
+        font-size: 18px;
+        font-weight: 300;
+        margin: 20px;
+        color: #000000;
+        justify-content: center;
+    }
+
+    .equipe .img-itens img {
+        max-width: 49%;
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras ao redor da imagem */
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+
+
+
+
+    /* Visão */
+    section.visao{
+        height: 130vh; /* Altura total da viewport */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #000000;
+        margin-top: -6%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .visao .tpt-hero{
+        font-size: 18px;
+        font-weight: 300;
+        margin: 20px;
+        color: #ffffff;
+        margin-left: 30px;
+        margin-right: 40px;
+        padding: 30px 0;
+    }
+
+    .visão .tdt-hero{
+        font-size: 18px;
+        font-weight: 300;
+        margin: 20px;
+        color: #000000;
+        justify-content: center;
+    }
+
+    /* PRODUÇÕES */
+
+    section.vantagens{
+        padding: 80px 0;
+        margin-top: 10%;
+        margin-right: 19%;
+        margin-left: 19%;
+    
+    }
+
+    .vantagens .itens-containe .img-itens img{
+        width: 100%;
+    }
+    
+    .vantagens .itens-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10%;
+        margin-bottom: 60px;
+
+        flex-direction: column;
+    }
+    
+    .vantagens .itens-container .titulo h5{
+        color: #fff;
+    }
+    
+    .vantagens .itens-container .txt-itens h3{
+        font-size: 30;
+        line-height: 50px;
+        color: #fff;
+        margin-bottom: 20px;
+        margin-left: 15%;
+        
+    }
+    
+    .vantagens .itens-container .txt-itens p{
+        margin-bottom: 10px
+    }
+ 
+
+    /* Estilo Formulário */
+
+    .formulario{ 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formulario .centralizado{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #000;
+
+    }
+
+    .formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding:10px 45px;
+        background: #000;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    }
+
+    .formulario h3{
+        color: #f5f5f5;
+        font-size: 30px;
+        margin: 2rem;
+    }
+
+    .formulario form{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    form label{
+        color:#f5f5f5;
+        font-size:17px;
+        margin-bottom: 4px;
+    }
+
+    form input{
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 20px;
+        font-size: 15px;
+        transition: all 0.5s;
+    }
+
+    form input:focus{
+        border-radius: 16px;
+    }
+
+    form textarea {
+        padding: 10px;
+        outline: none;
+        border: 0;
+        font-size: 15px;
+        margin-bottom: 30px;
+        border-radius: 4px; /* Inicial */
+        transition: all 0.5s;
+    }
+
+    form textarea:focus {
+        border-radius: 16px; /* Alterado ao focar */
+    }
+
+
+    form button{
+        padding: 15px;
+        cursor: pointer;
+        font-size: 16px;
+        background: transparent;
+        border: 2px solid #f5f5f5;
+        color:#f5f5f5;
+        transition: all 1s;
+        margin-bottom: 20px;
+    }
+
+    form button:hover{
+        background: #f5f5f5;
+        color:#000;
+        border-radius: 16px;
+    }
+
+    
+
+}  
